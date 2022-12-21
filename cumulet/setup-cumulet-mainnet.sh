@@ -44,8 +44,6 @@ VOLUME_VALIDATOR_AMOUNT="6${MGR}"
 INIT_VALIDATION_AMOUNT="5${MGR}"
 
 COMMUNITY_VALIDATOR_AMOUNT="10${GR}"
----GENESIS_AMOUNT="1${MGR}"
-
 
 name="Volume"
 echo "$MNEMONIC" | palomad keys add "$name" --recover
