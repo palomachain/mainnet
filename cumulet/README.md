@@ -1,4 +1,4 @@
-# Instructions
+# Script to create genesis file
 
 ## Running the script
 The setup script needs to be run from the validator machine that starts the chain. 
