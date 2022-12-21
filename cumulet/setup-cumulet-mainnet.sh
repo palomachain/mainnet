@@ -37,7 +37,7 @@ GR=000000ugrain
 KGR="000${GR}"
 MGR="000000${GR}"
 
-FOUNDATION_AMOUNT="531,250${KGR}"
+FOUNDATION_AMOUNT="531250${KGR}"
 
 VOLUME_AMOUNT="369${MGR}"
 VOLUME_VALIDATOR_AMOUNT="6${MGR}"
@@ -67,8 +67,8 @@ init Volume1 paloma1wm4y8yhppxud6j5wvwr7fyynhh09tmv5x5sfzm "$VOLUME_AMOUNT"
 init "Mason Borda" paloma10arp2v64rz4f6wx8ftlj2ktk3hzv359v3czf60 "5${MGR}"
 init "MacLane Wilkison" paloma19gxy25w03v605cjwy5a0x92lw0p8nrs8qtke2w "5${MGR}"
 init "Cassandra Shi" paloma1djpngum97kde3zyuactzf8rg2xls00t9q74qaw "5${MGR}"
-init "Anatoly Yakovenko" paloma12ewmpgtm0ujufvsvd5wxaz5tehyxpt38fdgdm9 "3,333,333${GR}"
-init "TRGC Ventures" paloma12nt749yerj89h0ql7l3durx8wspwtsg6caqk6y "26,666,667${GR}"
+init "Anatoly Yakovenko" paloma12ewmpgtm0ujufvsvd5wxaz5tehyxpt38fdgdm9 "3333333${GR}"
+init "TRGC Ventures" paloma12nt749yerj89h0ql7l3durx8wspwtsg6caqk6y "26666667${GR}"
 
 init StakingCabin paloma1qz30lp48lkdhcx2uw34v3mulc6se3wmw9yr5he
 init Everstake paloma1sysfu6jw5q7za5t5ddhkjm7uvanvy6nm5ac5j8
