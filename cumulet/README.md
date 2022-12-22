@@ -12,9 +12,10 @@ Steps to run the script (see example below)
 6. run the script
 
 ```
-CHAIN_ID=cumulet \
-MNEMONIC="$(cat mnemonic.mn)" \
-./init_genesis.sh
+export CHAIN_ID=cumulet
+export MNEMONIC="<YOUR MNEMONIC>"
+export ADDRESS="<YOUR PALOMA ADDRESS>"
+./setup-cumulet-mainnet.sh
 ```
     
 ## Important Notes

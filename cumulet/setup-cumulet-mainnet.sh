@@ -24,7 +24,7 @@ jq-i() {
   mv "${f}.tmp" "$f"
 }
 
-palomad init VolumeFi --chain-id "$CHAIN_ID"
+palomad init Volume --chain-id "$CHAIN_ID"
 
 pushd ~/.paloma/config/
 sed -i 's/^keyring-backend = ".*"/keyring-backend = "test"/' client.toml
@@ -47,7 +47,6 @@ COMMUNITY_VALIDATOR_AMOUNT="10${GR}"
 
 name="Volume"
 echo "$MNEMONIC" | palomad keys add "$name" --recover
-address="$(palomad keys show "$name" -a)"
 
 palomad add-genesis-account "$address" "$VOLUME_VALIDATOR_AMOUNT"
 palomad gentx "$name" "$INIT_VALIDATION_AMOUNT" --chain-id "$CHAIN_ID"
@@ -57,7 +56,7 @@ init() {
   address="$2"
   amount="${3:-"$COMMUNITY_VALIDATOR_AMOUNT"}"
 
-  palomad add-genesis-account "$address" "$amount"
+  palomad add-genesis-account "$ADDRESS" "$amount"
 }
 
 init PalomaFoundation1 paloma1786ghykqfeqtfstln97njuq39jcvmuzme94gcj "$FOUNDATION_AMOUNT"
@@ -109,7 +108,7 @@ init Elite.Stake paloma1x3sngn5exusll2fhly6vh7el7v2t4lfxw06lv6
 init Kinglsman paloma1h2adfqwras5q8p3hfgslfevj2ml7zs9srclv3s
 init BVS.Network paloma17jzj4m5d6uaqh5s7slf9xhmwy4mkwxm9n0ymff
 init Midora paloma1zhhwr8gk8pqf9p9eamxnqqstmtszjazwywr285
-init nodepro.xyz aka gloreix paloma1xaelfvaltqr3g7lurvrxtuh4krhmtgw4jxw94z
+init "nodepro.xyz aka gloreix" paloma1xaelfvaltqr3g7lurvrxtuh4krhmtgw4jxw94z
 init azstake paloma17kdfltcu45llx54ue0fvj8m4z9gd3ps4eg7v2n
 init Alliance paloma1urx2ut6s33ngd8d4q7s969pe7w27ca0xgrtcf5
 init Weakhand paloma1npxs5nr96twkn8fp00pq63dv52c2mqn6e6s6le
