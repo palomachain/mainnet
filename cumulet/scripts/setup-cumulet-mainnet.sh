@@ -54,6 +54,8 @@ init() {
   amount="${3:-"$COMMUNITY_VALIDATOR_AMOUNT"}"
 
   palomad add-genesis-account "$ADDRESS" "$amount"
+
+  
 }
 
 init PalomaFoundation1 paloma1va7n2gxufc45p5sqktvyx5lcp77fd3892la2hy "334582784${GR}"
@@ -62,7 +64,7 @@ init PalomaFoundation3 paloma1786ghykqfeqtfstln97njuq39jcvmuzme94gcj "$FOUNDATIO
 init PalomaFoundation4 paloma1786ghykqfeqtfstln97njuq39jcvmuzme94gcj "$FOUNDATION_AMOUNT"
 
 init VolumeFi1 paloma18xrvj2ffxygkmtqwf3tr6fjqk3w0dgg7m6ucwx "$VOLUME_AMOUNT"
-init VolumeFi1 paloma1kmgn5smatn70xskrh7p83ja3em79nfty4ajuug "$VOLUME_AMOUNT"
+init VolumeFi2 paloma1kmgn5smatn70xskrh7p83ja3em79nfty4ajuug "$VOLUME_AMOUNT"
 
 init EcosystemFund1	paloma17t5pd5l0d8a3p54r0p92src8tx2tvs7l2afmd9 "$ECOSYSTEM_AMOUNT"
 init EcosystemFund2	paloma1vlrsw0hf6ddkje99jtnzh4raaa4dqpwqapeaz6 "$ECOSYSTEM_AMOUNT"
@@ -76,7 +78,7 @@ init "Anatoly Yakovenko" paloma12ewmpgtm0ujufvsvd5wxaz5tehyxpt38fdgdm9 "3333333$
 init "TRGC Ventures" paloma12nt749yerj89h0ql7l3durx8wspwtsg6caqk6y "26666667${GR}"
 init "NGC Ventures" paloma1mt0as8vxnlflpfxvmu85a26mj97xtyhlycr8x3 "13333333${GR}"
 init "Dancing Banana Ventures" paloma1lsw2g9cpsmh28rd3rnlek8tuev9lkx60f8wwat "250${MGR}"
-init "Advancing Software Solutions Ltd" MISSING "3333333${GR}"
+init "Advancing Software Solutions Ltd" paloma17u3f8xkjr76vdlxg5t0frup7cjh8vwtm9xf9cy "3333333${GR}"
 
 init StakingCabin paloma1qz30lp48lkdhcx2uw34v3mulc6se3wmw9yr5he
 init Everstake paloma1sysfu6jw5q7za5t5ddhkjm7uvanvy6nm5ac5j8
