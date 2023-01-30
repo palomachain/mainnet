@@ -1283,10 +1283,10 @@
             "amount": "10000000"
           }
         ],
-        "max_deposit_period": "172800s"
+        "max_deposit_period": "432000s"
       },
       "voting_params": {
-        "voting_period": "172800s"
+        "voting_period": "432000s"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
@@ -1334,9 +1334,9 @@
       },
       "params": {
         "mint_denom": "ugrain",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
+        "inflation_rate_change": "0.040000000000000000",
+        "inflation_max": "0.070000000000000000",
+        "inflation_min": "0.030000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }
