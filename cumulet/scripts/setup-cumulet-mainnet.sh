@@ -56,7 +56,7 @@ init() {
   palomad add-genesis-account "$ADDRESS" "$amount"
 }
 
-init PalomaFoundation1 paloma1va7n2gxufc45p5sqktvyx5lcp77fd3892la2hy "334,582,784${GR}"
+init PalomaFoundation1 paloma1va7n2gxufc45p5sqktvyx5lcp77fd3892la2hy "334582784${GR}"
 init PalomaFoundation2 paloma1tgccuzzsz39q86gr3zq4mcelye0t4hqgtfn9lu "$FOUNDATION_AMOUNT"
 init PalomaFoundation3 paloma1786ghykqfeqtfstln97njuq39jcvmuzme94gcj "$FOUNDATION_AMOUNT"
 init PalomaFoundation4 paloma1786ghykqfeqtfstln97njuq39jcvmuzme94gcj "$FOUNDATION_AMOUNT"
