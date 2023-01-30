@@ -46,7 +46,7 @@ COMMUNITY_VALIDATOR_AMOUNT="10${GR}"
 name="Volume"
 echo "$MNEMONIC" | palomad keys add "$name" --recover
 
-palomad add-genesis-account "$address" "$COMMUNITY_VALIDATOR_AMOUNT"
+palomad add-genesis-account "$ADDRESS" "$COMMUNITY_VALIDATOR_AMOUNT"
 
 init() {
   name="$1"
