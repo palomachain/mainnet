@@ -24,7 +24,7 @@ jq-i() {
   mv "${f}.tmp" "$f"
 }
 
-palomad init Volume --chain-id "$CHAIN_ID"
+palomad init VolumeFi --chain-id "$CHAIN_ID"
 
 pushd ~/.paloma/config/
 sed -i 's/^keyring-backend = ".*"/keyring-backend = "test"/' client.toml
@@ -38,18 +38,15 @@ KGR="000${GR}"
 MGR="000000${GR}"
 
 FOUNDATION_AMOUNT="531250${KGR}"
-
-VOLUME_AMOUNT="369${MGR}"
-VOLUME_VALIDATOR_AMOUNT="6${MGR}"
-INIT_VALIDATION_AMOUNT="5${MGR}"
+VOLUME_AMOUNT="375${MGR}"
+ECOSYSTEM_AMOUNT="500${MGR}"
 
 COMMUNITY_VALIDATOR_AMOUNT="10${GR}"
 
 name="Volume"
 echo "$MNEMONIC" | palomad keys add "$name" --recover
 
-palomad add-genesis-account "$address" "$VOLUME_VALIDATOR_AMOUNT"
-palomad gentx "$name" "$INIT_VALIDATION_AMOUNT" --chain-id "$CHAIN_ID"
+palomad add-genesis-account "$address" "$COMMUNITY_VALIDATOR_AMOUNT"
 
 init() {
   name="$1"
@@ -59,19 +56,32 @@ init() {
   palomad add-genesis-account "$ADDRESS" "$amount"
 }
 
-init PalomaFoundation1 paloma1786ghykqfeqtfstln97njuq39jcvmuzme94gcj "$FOUNDATION_AMOUNT"
+init PalomaFoundation1 paloma1va7n2gxufc45p5sqktvyx5lcp77fd3892la2hy "334,582,784${GR}"
+init PalomaFoundation2 paloma1tgccuzzsz39q86gr3zq4mcelye0t4hqgtfn9lu "$FOUNDATION_AMOUNT"
+init PalomaFoundation3 paloma1786ghykqfeqtfstln97njuq39jcvmuzme94gcj "$FOUNDATION_AMOUNT"
+init PalomaFoundation4 paloma1786ghykqfeqtfstln97njuq39jcvmuzme94gcj "$FOUNDATION_AMOUNT"
 
-init Volume1 paloma1wm4y8yhppxud6j5wvwr7fyynhh09tmv5x5sfzm "$VOLUME_AMOUNT"
+init VolumeFi1 paloma18xrvj2ffxygkmtqwf3tr6fjqk3w0dgg7m6ucwx "$VOLUME_AMOUNT"
+init VolumeFi1 paloma1kmgn5smatn70xskrh7p83ja3em79nfty4ajuug "$VOLUME_AMOUNT"
+
+init EcosystemFund1	paloma17t5pd5l0d8a3p54r0p92src8tx2tvs7l2afmd9 "$ECOSYSTEM_AMOUNT"
+init EcosystemFund2	paloma1vlrsw0hf6ddkje99jtnzh4raaa4dqpwqapeaz6 "$ECOSYSTEM_AMOUNT"
+init EcosystemFund3	paloma155sma9auqx37fydzf38puhag2zfe0e3wecsf88 "$ECOSYSTEM_AMOUNT"
+init EcosystemFund4	paloma1ntgj0mfs0ukflk07sd3h8g3txhged0htvuzy23 "$ECOSYSTEM_AMOUNT"
 
 init "Mason Borda" paloma10arp2v64rz4f6wx8ftlj2ktk3hzv359v3czf60 "5${MGR}"
 init "MacLane Wilkison" paloma19gxy25w03v605cjwy5a0x92lw0p8nrs8qtke2w "5${MGR}"
 init "Cassandra Shi" paloma1djpngum97kde3zyuactzf8rg2xls00t9q74qaw "5${MGR}"
 init "Anatoly Yakovenko" paloma12ewmpgtm0ujufvsvd5wxaz5tehyxpt38fdgdm9 "3333333${GR}"
 init "TRGC Ventures" paloma12nt749yerj89h0ql7l3durx8wspwtsg6caqk6y "26666667${GR}"
+init "NGC Ventures" paloma1mt0as8vxnlflpfxvmu85a26mj97xtyhlycr8x3 "13333333${GR}"
+init "Dancing Banana Ventures" paloma1lsw2g9cpsmh28rd3rnlek8tuev9lkx60f8wwat "250${MGR}"
+init "Advancing Software Solutions Ltd" MISSING "3333333${GR}"
 
 init StakingCabin paloma1qz30lp48lkdhcx2uw34v3mulc6se3wmw9yr5he
 init Everstake paloma1sysfu6jw5q7za5t5ddhkjm7uvanvy6nm5ac5j8
 init Helder paloma1h4u3haaqd8z3gqp2lrx9hhd799cpguj5ufegj2
+init Marbar paloma1nqa77k8cnp9qr7mrwuuf6dt7dfk8sazwe7nlhn
 init Baez paloma1rv786ey6j863szlkpwlrv784q6vgjm847hnvdz
 init Alex@Confio paloma1ggdxy40e239gwv5uzdxlhgseyyaf52fnpcalys
 init NodeJumper paloma1kludne80z0tcq9t7j9fqa630fechsjhxhpafac
