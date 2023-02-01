@@ -1,0 +1,61 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "Nodes.Guru",
+          "identity": "28B672FCE6BBD562",
+          "website": "https://stake.nodes.guru",
+          "security_contact": "security@nodes.guru",
+          "details": "Guru of non-custodial staking. Professional node running, low fees, best uptime and 24/7 customer support."
+        },
+        "commission": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.050000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "paloma19pkd8gtza43633qxk2uqmw8kxhrw8jwf5c36rq",
+        "validator_address": "palomavaloper19pkd8gtza43633qxk2uqmw8kxhrw8jwfmgxx4n",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "pQSTZH1ALLJYDW81Osp8AJqj2rTI4UrAlqDg+mHxto8="
+        },
+        "value": {
+          "denom": "ugrain",
+          "amount": "10000000"
+        }
+      }
+    ],
+    "memo": "a9a0a77dfd05b42b14461c57e8a1f252c7deeef3@198.244.228.162:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "AiDL4PgfzWC6QIHlSkeOiXxCgWKWEqnxrtEobkVaAAsw"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": [
+    "Q5k71HyMhG8Gpg64HCfzKC0H1Gc8k2BqdpX70whWsAkvq26iRC/T+JBPTS2xj+H9NcGoA6zuLp3kalcQZIE4fg=="
+  ]
+}
