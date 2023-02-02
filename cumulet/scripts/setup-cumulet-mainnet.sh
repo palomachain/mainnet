@@ -54,7 +54,7 @@ init() {
   amount="${3:-"$COMMUNITY_VALIDATOR_AMOUNT"}"
 
   palomad add-genesis-account "$address" "$amount"
-  
+
 }
 
 init PalomaFoundation1 paloma1va7n2gxufc45p5sqktvyx5lcp77fd3892la2hy "334582784${GR}"
@@ -129,6 +129,6 @@ init byte_master paloma1kqufqd069ewrst92augwrywaagkwyrjs0jkkez
 init silent paloma1npwku4dmlnfwx9vqjnxzpfvdyxtcqvh3cqcl5x
 init vVv paloma1elhz6uuxgjjfqd78pgcaz65mxyuvyxhevf8ryt
 init moneyboss paloma13cfxrvldlpxdhn8mq9ydm3syyshddruzn45mvh
-init KingSuper paloma1cs6trg6chgcw0t8dzjx9tup7emctxxtwehg6kq
+init KingSuper paloma1s0lankh33kprer2l22nank5rvsuh9ksaxkx852
 init nazar-father paloma1s2jzpdfedxqfmttl55f9yvhmpgj738t2qkuaql
 init AlxVoy paloma1my3gpyx7sdx7wn4rd0hmng60q9jhykxhfp7jqy
