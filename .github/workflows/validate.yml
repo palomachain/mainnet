@@ -1,0 +1,31 @@
+name: Tests
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  cleanup-runs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: rokroskar/workflow-run-cleanup-action@master
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+    if: "!startsWith(github.ref, 'refs/tags/') && github.ref != 'refs/heads/main'"
+
+  validate-gentx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-go@v2.1.5
+        with:
+          go-version: 1.19
+      - uses: actions/checkout@v2
+      - uses: technote-space/get-diff-action@v6.0.1
+        with:
+          PATTERNS: |
+            gentxs/*.json
+      - name: Validate GenTx Submission
+        run: |
+          make validate-gentxs
+        if: env.GIT_DIFF
