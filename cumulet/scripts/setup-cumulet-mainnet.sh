@@ -57,7 +57,7 @@ init() {
 
 }
 
-init PalomaFoundation1 paloma1va7n2gxufc45p5sqktvyx5lcp77fd3892la2hy "574582784${GR}"
+init PalomaFoundation1 paloma1va7n2gxufc45p5sqktvyx5lcp77fd3892la2hy "324582784${GR}"
 init PalomaFoundation2 paloma1tgccuzzsz39q86gr3zq4mcelye0t4hqgtfn9lu "$FOUNDATION_AMOUNT"
 init PalomaFoundation3 paloma13z3cve7tfcsjmncrvw3ascs8pap07nkp6ykx8s "$FOUNDATION_AMOUNT"
 init PalomaFoundation4 paloma12l2u68cqfr29kf3r4c6dqctpsl6ev62hvpraen "$FOUNDATION_AMOUNT"
@@ -76,7 +76,8 @@ init "Cassandra Shi" paloma1djpngum97kde3zyuactzf8rg2xls00t9q74qaw "5${MGR}"
 init "Anatoly Yakovenko" paloma12ewmpgtm0ujufvsvd5wxaz5tehyxpt38fdgdm9 "3333333${GR}"
 init "TRGC Ventures" paloma12nt749yerj89h0ql7l3durx8wspwtsg6caqk6y "26666667${GR}"
 init "NGC Ventures" paloma1mt0as8vxnlflpfxvmu85a26mj97xtyhlycr8x3 "13333333${GR}"
-init "Dancing Banana Ventures" paloma1lsw2g9cpsmh28rd3rnlek8tuev9lkx60f8wwat "10${MGR}"
+init "Dancing Banana Ventures_Fund0" paloma1lsw2g9cpsmh28rd3rnlek8tuev9lkx60f8wwat "10${MGR}"
+init "Dancing Banana Ventures_Fund1" paloma1qek2sp2srne2zav3694h9l7s2wuwcn5psv48pg "250${MGR}"
 init "Advancing Software Solutions Ltd" paloma17u3f8xkjr76vdlxg5t0frup7cjh8vwtm9xf9cy "3333333${GR}"
 
 init StakingCabin paloma1qz30lp48lkdhcx2uw34v3mulc6se3wmw9yr5he
