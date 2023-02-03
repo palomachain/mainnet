@@ -54,10 +54,10 @@ init() {
   amount="${3:-"$COMMUNITY_VALIDATOR_AMOUNT"}"
 
   palomad add-genesis-account "$address" "$amount"
-  
+
 }
 
-init PalomaFoundation1 paloma1va7n2gxufc45p5sqktvyx5lcp77fd3892la2hy "574582784${GR}"
+init PalomaFoundation1 paloma1va7n2gxufc45p5sqktvyx5lcp77fd3892la2hy "324582784${GR}"
 init PalomaFoundation2 paloma1tgccuzzsz39q86gr3zq4mcelye0t4hqgtfn9lu "$FOUNDATION_AMOUNT"
 init PalomaFoundation3 paloma13z3cve7tfcsjmncrvw3ascs8pap07nkp6ykx8s "$FOUNDATION_AMOUNT"
 init PalomaFoundation4 paloma12l2u68cqfr29kf3r4c6dqctpsl6ev62hvpraen "$FOUNDATION_AMOUNT"
@@ -76,7 +76,8 @@ init "Cassandra Shi" paloma1djpngum97kde3zyuactzf8rg2xls00t9q74qaw "5${MGR}"
 init "Anatoly Yakovenko" paloma12ewmpgtm0ujufvsvd5wxaz5tehyxpt38fdgdm9 "3333333${GR}"
 init "TRGC Ventures" paloma12nt749yerj89h0ql7l3durx8wspwtsg6caqk6y "26666667${GR}"
 init "NGC Ventures" paloma1mt0as8vxnlflpfxvmu85a26mj97xtyhlycr8x3 "13333333${GR}"
-init "Dancing Banana Ventures" paloma1lsw2g9cpsmh28rd3rnlek8tuev9lkx60f8wwat "10${MGR}"
+init "Dancing Banana Ventures_Fund0" paloma1lsw2g9cpsmh28rd3rnlek8tuev9lkx60f8wwat "10${MGR}"
+init "Dancing Banana Ventures_Fund1" paloma1qek2sp2srne2zav3694h9l7s2wuwcn5psv48pg "250${MGR}"
 init "Advancing Software Solutions Ltd" paloma17u3f8xkjr76vdlxg5t0frup7cjh8vwtm9xf9cy "3333333${GR}"
 
 init StakingCabin paloma1qz30lp48lkdhcx2uw34v3mulc6se3wmw9yr5he
@@ -128,7 +129,7 @@ init byte_master paloma1kqufqd069ewrst92augwrywaagkwyrjs0jkkez
 init silent paloma1npwku4dmlnfwx9vqjnxzpfvdyxtcqvh3cqcl5x
 init vVv paloma1elhz6uuxgjjfqd78pgcaz65mxyuvyxhevf8ryt
 init moneyboss paloma13cfxrvldlpxdhn8mq9ydm3syyshddruzn45mvh
-init KingSuper paloma1cs6trg6chgcw0t8dzjx9tup7emctxxtwehg6kq
+init KingSuper paloma1s0lankh33kprer2l22nank5rvsuh9ksaxkx852
 init nazar-father paloma1s2jzpdfedxqfmttl55f9yvhmpgj738t2qkuaql
 init AlxVoy paloma1my3gpyx7sdx7wn4rd0hmng60q9jhykxhfp7jqy
 init panxinyang	paloma1aec790r8v55a5kntfmmver0zwvekptggt7n6j2
