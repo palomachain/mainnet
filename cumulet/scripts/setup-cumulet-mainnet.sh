@@ -57,7 +57,7 @@ init() {
   
 }
 
-init PalomaFoundation1 paloma1va7n2gxufc45p5sqktvyx5lcp77fd3892la2hy "334582784${GR}"
+init PalomaFoundation1 paloma1va7n2gxufc45p5sqktvyx5lcp77fd3892la2hy "574582784${GR}"
 init PalomaFoundation2 paloma1tgccuzzsz39q86gr3zq4mcelye0t4hqgtfn9lu "$FOUNDATION_AMOUNT"
 init PalomaFoundation3 paloma13z3cve7tfcsjmncrvw3ascs8pap07nkp6ykx8s "$FOUNDATION_AMOUNT"
 init PalomaFoundation4 paloma12l2u68cqfr29kf3r4c6dqctpsl6ev62hvpraen "$FOUNDATION_AMOUNT"
@@ -76,7 +76,7 @@ init "Cassandra Shi" paloma1djpngum97kde3zyuactzf8rg2xls00t9q74qaw "5${MGR}"
 init "Anatoly Yakovenko" paloma12ewmpgtm0ujufvsvd5wxaz5tehyxpt38fdgdm9 "3333333${GR}"
 init "TRGC Ventures" paloma12nt749yerj89h0ql7l3durx8wspwtsg6caqk6y "26666667${GR}"
 init "NGC Ventures" paloma1mt0as8vxnlflpfxvmu85a26mj97xtyhlycr8x3 "13333333${GR}"
-init "Dancing Banana Ventures" paloma1lsw2g9cpsmh28rd3rnlek8tuev9lkx60f8wwat "250${MGR}"
+init "Dancing Banana Ventures" paloma1lsw2g9cpsmh28rd3rnlek8tuev9lkx60f8wwat "10${MGR}"
 init "Advancing Software Solutions Ltd" paloma17u3f8xkjr76vdlxg5t0frup7cjh8vwtm9xf9cy "3333333${GR}"
 
 init StakingCabin paloma1qz30lp48lkdhcx2uw34v3mulc6se3wmw9yr5he
@@ -119,7 +119,6 @@ init Elite.Stake paloma1x3sngn5exusll2fhly6vh7el7v2t4lfxw06lv6
 init Kinglsman paloma1h2adfqwras5q8p3hfgslfevj2ml7zs9srclv3s
 init BVS.Network paloma17jzj4m5d6uaqh5s7slf9xhmwy4mkwxm9n0ymff
 init Midora paloma1zhhwr8gk8pqf9p9eamxnqqstmtszjazwywr285
-init "nodepro.xyz aka gloreix" paloma1xaelfvaltqr3g7lurvrxtuh4krhmtgw4jxw94z
 init azstake paloma17kdfltcu45llx54ue0fvj8m4z9gd3ps4eg7v2n
 init Alliance paloma1urx2ut6s33ngd8d4q7s969pe7w27ca0xgrtcf5
 init Weakhand paloma1npxs5nr96twkn8fp00pq63dv52c2mqn6e6s6le
@@ -132,4 +131,8 @@ init moneyboss paloma13cfxrvldlpxdhn8mq9ydm3syyshddruzn45mvh
 init KingSuper paloma1cs6trg6chgcw0t8dzjx9tup7emctxxtwehg6kq
 init nazar-father paloma1s2jzpdfedxqfmttl55f9yvhmpgj738t2qkuaql
 init AlxVoy paloma1my3gpyx7sdx7wn4rd0hmng60q9jhykxhfp7jqy
-init panxinyang paloma1aec790r8v55a5kntfmmver0zwvekptggt7n6j2
+init panxinyang	paloma1aec790r8v55a5kntfmmver0zwvekptggt7n6j2
+init dimar paloma1ylmkqmwct392ytu52tncpeyz4dskklx56cd3rf
+init NoFloat paloma1n3lnqk3mf5seau5rcnf0jysraq2ah73h5vpqed
+init FedNet	paloma1pdd0nmuj0xfwhfyt7h3wkx9zgjvs3hzlehakd5
+init igval1	paloma1zz9fnrcpse9fjrq2sjg6rtxhv9z3uyeswyxejx
