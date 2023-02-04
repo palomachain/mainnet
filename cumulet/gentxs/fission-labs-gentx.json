@@ -24,7 +24,7 @@
         },
         "value": {
           "denom": "ugrain",
-          "amount": "10000000"
+          "amount": "9000000"
         }
       }
     ],
@@ -56,6 +56,6 @@
     }
   },
   "signatures": [
-    "vBcvlzNj4miobnhT09sWWgOKuCn1VdZl8hH8xR3jxAdjbAyxAmvqVdvDx57hqLIGLYDn+Cu0hPvfBfDNeg0hgA=="
+    "/Se9fCYqj1cFRfDuNcfDSuhNB2abYrtg18Fcn0b7ecs7XEYMRoL4KGLYHp6YHhyPj4u0Mjjcpm6gm02LFJ7eug=="
   ]
 }
