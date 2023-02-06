@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-02-06T04:33:54.180745785Z",
+  "genesis_time": "2023-02-06T13:00:00.000000000Z",
   "chain_id": "cumulet",
   "initial_height": "1",
   "consensus_params": {
@@ -3932,9 +3932,9 @@
       },
       "params": {
         "mint_denom": "ugrain",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
+        "inflation_rate_change": "0.040000000000000000",
+        "inflation_max": "0.070000000000000000",
+        "inflation_min": "0.030000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }
@@ -3949,7 +3949,7 @@
     },
     "slashing": {
       "params": {
-        "signed_blocks_window": "100",
+        "signed_blocks_window": "1000",
         "min_signed_per_window": "0.500000000000000000",
         "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
