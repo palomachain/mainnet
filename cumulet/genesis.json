@@ -1555,23 +1555,23 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "Firstcome",
-                  "identity": "AC6D3F3F77A6768E",
-                  "website": "https://firstcome.net",
-                  "security_contact": "testnetmaker@gmail.com",
-                  "details": "Trusted Validator on Proof-of-Stake Blockchains"
+                  "moniker": "ERN",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
                 },
                 "commission": {
-                  "rate": "0.050000000000000000",
-                  "max_rate": "0.150000000000000000",
-                  "max_change_rate": "0.050000000000000000"
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "paloma1d0py2ucz2jrz69ca5l3pd4dfrmv64r24wu00ja",
-                "validator_address": "palomavaloper1d0py2ucz2jrz69ca5l3pd4dfrmv64r24pvcnyw",
+                "delegator_address": "paloma1am3k7czusdcewv55nhaugu2drn38af9449yxzj",
+                "validator_address": "palomavaloper1am3k7czusdcewv55nhaugu2drn38af9464n65p",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "5ErI+jfooO1CBcWlJR66f2xTeGo+KfjVTpGBL7mQTsU="
+                  "key": "3YrkSyzVyDNr39RF2ah/uTDFF/G7cUwCSRZHGXveTI8="
                 },
                 "value": {
                   "denom": "ugrain",
@@ -1579,7 +1579,7 @@
                 }
               }
             ],
-            "memo": "317141e329bc214a76ba92201f6818574ebe5323@135.181.114.98:26656",
+            "memo": "4569193b58dfc6d9ca9acd4e2bcabf596e5b6b3c@65.21.7.251:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -1589,7 +1589,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A5r3A3dUKn367SDWNIlbhAouAXsf8VZ4cj4p0cC9LDEk"
+                  "key": "AgVcXxEdNcoimlGwmxrMjRbniXAAnavk39NbygshXcHK"
                 },
                 "mode_info": {
                   "single": {
@@ -1607,7 +1607,7 @@
             }
           },
           "signatures": [
-            "CS73MW74gY8UJo1CEnQhILqjM7fMUX7/Mg8N+SHajYN3xbVU0Ljyqj5FPYD7mA08v6NQBAUdweMIPHJVnpLBtQ=="
+            "CjsBBlX7Zm+rIAmyJA7P7pFkCeqSKRcXU6Pq/UgxUgxX+GCmzjZo8IgCh3Jnx+kOupsAY7EgwEIHjsqFZ5i88w=="
           ]
         },
         {
@@ -1669,6 +1669,67 @@
           },
           "signatures": [
             "lXFywymIofSzKzaqsRxg8SCtBaEE0mL0Z+c8RjAFKGtqUPQyC4QCPS1qyXSy3lYyuHjHyULyngVFz6Cv8MymAQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "MCB | mcbnode",
+                  "identity": "2C079160AC9C286B",
+                  "website": "https://mcbnode.com",
+                  "security_contact": "alipostaci2002@gmail.com",
+                  "details": "Professional validator and staking service for cosmos ecosystem"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "paloma1d3v3jh6l2r23y9kgzdrahx0ev8ez0g8qapsfxs",
+                "validator_address": "palomavaloper1d3v3jh6l2r23y9kgzdrahx0ev8ez0g8qj384sr",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "HP0/bRUKmdY3PuXfIf7SSi2twPMZvu09AVIZjuGLy5M="
+                },
+                "value": {
+                  "denom": "ugrain",
+                  "amount": "9000000"
+                }
+              }
+            ],
+            "memo": "6d8d882eac7800010bbcc9d61418388a143b063c@85.10.207.188:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ao0CQX1lrXyltLNkfhtb2JchTR24zqg4kixI+s12c/QG"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "jOw55VJjZESZJG3zM5rgrrfhhGHB+tuKOsfNSWvNHXklX0wBcprLPZkWschY6dSXbU032DVXccaPAbFtzM4SYg=="
           ]
         },
         {
@@ -1741,7 +1802,7 @@
                   "moniker": "⭐️ PPNV Service ⭐️",
                   "identity": "862C5270EE4D7EB6",
                   "website": "https://ppnv.space",
-                  "security_contact": "ppnv.contact@gmail.com",
+                  "security_contact": "",
                   "details": "Professional team PoS Network Validators ✅"
                 },
                 "commission": {
@@ -1790,7 +1851,68 @@
             }
           },
           "signatures": [
-            "3lJYCt/9BTCLEu6V8ortz8WZipGs56Lwz6yde2OsXZQw9QsnTLmWy8oWNN6PK/rpSCV4I923OGTYL0smyRjE5Q=="
+            "qRLmQ/x4mEk6UPBdhg0/96HlF2o9DYN8+exdMzzfRMsK1eijrrYwAd3rj5EPsiOE2QCa4I+AMx1cF99qig1l6g=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "VitaValeriya",
+                  "identity": "71559C3D1CC3C94D",
+                  "website": "https://github.com/VitaValeriya",
+                  "security_contact": "vitavaleriya@gmail.com",
+                  "details": "Crypto enthusiast * Validator"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.100000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "paloma19svt6tkvnu9wcjfwz2daglnxtm0frcavpzeyk2",
+                "validator_address": "palomavaloper19svt6tkvnu9wcjfwz2daglnxtm0frcavwjwcqe",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "qegYty3jdCbKkgUsAUDcAY+cK9kLDfAwolSqagOcxTk="
+                },
+                "value": {
+                  "denom": "ugrain",
+                  "amount": "9000000"
+                }
+              }
+            ],
+            "memo": "a6c0530daf8052b248d30c072757b285a6c0dd00@95.214.52.144:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AsGirXU5+DUzSQyRdpyb7qz38uu8CtfVij9dPf+RwoC0"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "nS0MwBNsR3xVf0pVF3U0Whyzdeqaryg6ChApv2xhhA8Ho0QTM+If9wCP4XKwsMb6ibnKcH1jLSEBpXDTH3tVXw=="
           ]
         },
         {
@@ -1852,6 +1974,67 @@
           },
           "signatures": [
             "qkV3uXARyeZLlmgfmWiWLEgBXAR5t2jMpQ/7ApbJIOJenHDeBR72Ue7vK/x8U/YYMS+uy2MMe9DawNKOMcNSbQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "catone",
+                  "identity": "A3EB6849C02F49D7",
+                  "website": "https://github.com/KyErgus",
+                  "security_contact": "",
+                  "details": "Stake pool"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "paloma10y227j9d09pckexy32v2gckerj9a0kcepc7zsh",
+                "validator_address": "palomavaloper10y227j9d09pckexy32v2gckerj9a0kcewgf7xy",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "CGo8qPm4ENsnFJLLoqi686QLcNjoKN5pJ2XlD3eQzhI="
+                },
+                "value": {
+                  "denom": "ugrain",
+                  "amount": "9000000"
+                }
+              }
+            ],
+            "memo": "5321570794c61a8285505812cb7ebd6308a86583@65.109.113.253:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AormabGKY9hJtGbfRH800F3XPuPiK7y7i9aq/T5ktsqC"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "rsvFV2dU9HEaiSv6KrJy57R60oHelGTFhb/UVhj6f5xfFBbRk7sM9WU1zX8kJvfSlZaTM4hop0NMhNnWE1Fd4A=="
           ]
         },
         {
@@ -2120,7 +2303,7 @@
                 "validator_address": "palomavaloper1wm4y8yhppxud6j5wvwr7fyynhh09tmv5fy845g",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "GwMl1JdUha5kxN+Rf+GI5q83ojcKg7D5KsYkeDanvhU="
+                  "key": "+AIrjLmD1KiLe2XWncWWCU1L6b3reEIx7nCqtynI++s="
                 },
                 "value": {
                   "denom": "ugrain",
@@ -2128,7 +2311,7 @@
                 }
               }
             ],
-            "memo": "4305416d368320544c45a4315ce04a4bae32ded8@104.167.221.18:26656",
+            "memo": "a5f79e7b9f9c4ba651748318437e5caca2e0042f@104.167.221.18:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2156,7 +2339,7 @@
             }
           },
           "signatures": [
-            "pxzj5D7Ecwi9xsDm660n/eeAeKFyw3i0/rGmLKwrkX9TLfSANUvTZ7Wl11DeubB1mNFNHXH7U/LP/WAvhtwXbQ=="
+            "19VYVL92dzEJjCAOpGgocbu7dBTzbdAmL12YxX1ruHNURG4ngLVgWusJVXtVFRZnzUWaLdMRUEiyrUJFReACbg=="
           ]
         },
         {
@@ -3560,6 +3743,67 @@
           },
           "signatures": [
             "zK2qPiVn3j/JJgZJUk9Yz66Rn9U6O7m3DlwOXCeVi7RzLwyanIMRcJhKh9haVTCFHOtNyyT3+n7N8hm9PQfbgg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "salomonval",
+                  "identity": "525EED8FEB9102FD",
+                  "website": "",
+                  "security_contact": "",
+                  "details": "Stake with me"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "paloma1ljg6ed0pzc3xpqtareyfp6h4fpngs7nw0nnu2j",
+                "validator_address": "palomavaloper1ljg6ed0pzc3xpqtareyfp6h4fpngs7nwqryqup",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "bcxIpTNUDtbvqtNXkUmNBXAoLU+0nhRA6remFo+/m0s="
+                },
+                "value": {
+                  "denom": "ugrain",
+                  "amount": "9000000"
+                }
+              }
+            ],
+            "memo": "7a5e5d8a2d751a369d0d3dd983ce27845f24c6c9@81.0.220.245:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/F489/EH4sp0W8Z2r5mJWDoJ3osKAHODs1dkh2l/gAU"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "L9y93A2bPWHvOOQKeLGWzCo7Ged4aODgOaOMjv+uEVdVFsMqqY3vWFEdkDLIGreOAvJ5UFOy4bOcl/wE94t6tA=="
           ]
         },
         {
