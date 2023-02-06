@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2023-02-06T13:00:00Z",
-  "chain_id": "cumulet",
+  "genesis_time": "2023-02-07T13:00:00.000000000Z",
+  "chain_id": "messenger",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -3988,14 +3988,14 @@
     },
     "mint": {
       "minter": {
-        "inflation": "0.130000000000000000",
+        "inflation": "0.000000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "ugrain",
-        "inflation_rate_change": "0.040000000000000000",
-        "inflation_max": "0.070000000000000000",
-        "inflation_min": "0.030000000000000000",
+        "inflation_rate_change": "0.000000000000000000",
+        "inflation_max": "0.000000000000000000",
+        "inflation_min": "0.000000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }
