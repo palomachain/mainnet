@@ -79,6 +79,7 @@ init "NGC Ventures" paloma1mt0as8vxnlflpfxvmu85a26mj97xtyhlycr8x3 "13333333${GR}
 init "Dancing Banana Ventures_Fund0" paloma1lsw2g9cpsmh28rd3rnlek8tuev9lkx60f8wwat "10${MGR}"
 init "Dancing Banana Ventures_Fund1" paloma1qek2sp2srne2zav3694h9l7s2wuwcn5psv48pg "250${MGR}"
 init "Advancing Software Solutions Ltd" paloma17u3f8xkjr76vdlxg5t0frup7cjh8vwtm9xf9cy "3333333${GR}"
+init "Hustle Fund" paloma12ukjp5q4yr6w2nz9k0qdtkjad7ej9y05ylgad9 "10${MGR}"
 
 init StakingCabin paloma1qz30lp48lkdhcx2uw34v3mulc6se3wmw9yr5he
 init Everstake paloma1sysfu6jw5q7za5t5ddhkjm7uvanvy6nm5ac5j8
@@ -126,7 +127,7 @@ init Weakhand paloma1npxs5nr96twkn8fp00pq63dv52c2mqn6e6s6le
 init MTnode paloma1848ywe2gnd23faedwzhzmxqgspp269fww39h77
 init wabut.club paloma18tz9pqy2aaadax29xnszyvp805cf0fdpxtmz4h
 init byte_master paloma1kqufqd069ewrst92augwrywaagkwyrjs0jkkez
-init silent paloma1npwku4dmlnfwx9vqjnxzpfvdyxtcqvh3cqcl5x
+init silent paloma109l8jp4zx9g8udetnh5qwgsze82meeq5tscxaw
 init vVv paloma1elhz6uuxgjjfqd78pgcaz65mxyuvyxhevf8ryt
 init moneyboss paloma13cfxrvldlpxdhn8mq9ydm3syyshddruzn45mvh
 init KingSuper paloma1s0lankh33kprer2l22nank5rvsuh9ksaxkx852
