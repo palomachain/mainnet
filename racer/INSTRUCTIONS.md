@@ -1,6 +1,6 @@
 1. `sudo service palomad stop`
 2. `sudo service pigeond stop`
-3. confirm that you're on paloma v1.13.1 or download it
+3. Download paloma v1.13.1 from 04/15/2024 release date
   ```shell
   wget -O - https://github.com/palomachain/paloma/releases/download/v1.13.1/paloma_Linux_x86_64.tar.gz  | \
   sudo tar -C /usr/local/bin -xvzf - palomad 
