@@ -10,7 +10,7 @@
         ```
 6. Get new genesis
     1. `wget -O ~/.paloma/config/genesis.json https://raw.githubusercontent.com/palomachain/mainnet/master/racer/genesis.json`
-7. **`palomad tendermint unsafe-reset-all --home $HOME/.paloma`**
+7. **`palomad comet unsafe-reset-all --home $HOME/.paloma`**
 8. `echo '{}' > ~/.paloma/config/addrbook.json`
 9. `sudo service pigeond start`
 10. `sudo service palomad start`
