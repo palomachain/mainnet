@@ -42,6 +42,11 @@
      ```shell
     palomad comet unsafe-reset-all --home $HOME/.paloma`
     ```
-12.   `echo '{}' > ~/.paloma/config/addrbook.json`
-13.   `sudo service pigeond start`
-14.   `sudo service palomad start`
+12. `echo '{}' > ~/.paloma/config/addrbook.json`
+13. To speed up prevote rounds and reduce the timeout delta, please update your `~/.paloma/config/client.toml`. from 500ms to 100ms. See below
+   ```shell
+   #How much the timeout_precommit increases with each round
+   timeout_precommit_delta = "100ms"
+   ```
+14.   `sudo service pigeond start`
+15.   `sudo service palomad start`
