@@ -38,9 +38,9 @@
      ```shell
      wget -O ~/.paloma/config/genesis.json https://raw.githubusercontent.com/palomachain/mainnet/master/racer/genesis.json
     ```
-11.  **IMPORTANT** 
+11. **IMPORTANT** 
      ```shell
-    palomad comet unsafe-reset-all --home $HOME/.paloma`
+     palomad comet unsafe-reset-all --home $HOME/.paloma`
     ```
 12. `echo '{}' > ~/.paloma/config/addrbook.json`
 13. To speed up prevote rounds and reduce the timeout delta, please update your `~/.paloma/config/client.toml`. from 500ms to 100ms. See below
