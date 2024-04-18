@@ -38,7 +38,7 @@
      ```
 9. Get new genesis
    ```shell
-   wget -O ~/.paloma/config/genesis.json https://raw.githubusercontent.com/palomachain/mainnet master/racer/genesis.json
+   wget -O ~/.paloma/config/genesis.json https://raw.githubusercontent.com/palomachain/mainnet/master/racer/genesis.json
    ```
 10. **VERIFY SHASUM OF GENESIS**
     ```shell
