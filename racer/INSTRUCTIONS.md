@@ -3,9 +3,9 @@
    sudo service palomad stop
    sudo service pigeond stop
    ```
-2. Download the latest paloma v1.13.1 from 04/16/2024 release date.
+2. Download the latest paloma v1.13.2 from 04/18/2024 release date.
    ```shell
-   wget -O - https://github.com/palomachain/paloma/releases/download/v1.13.1/paloma_Linux_x86_64.tar.gz  | \
+   wget -O - https://github.com/palomachain/paloma/releases/download/v1.13.2/paloma_Linux_x86_64.tar.gz  | \
    sudo tar -C /usr/local/bin -xvzf - palomad 
    sudo chmod +x /usr/local/bin/palomad
    ```
@@ -14,15 +14,15 @@
    rm -rf paloma
    git clone https://github.com/palomachain/paloma.git
    cd paloma
-   git checkout v1.13.1
+   git checkout v1.13.2
    make build
    sudo mv ./build/palomad /usr/local/bin/palomad
    ```
-4. **Confirm that you have the correct binary**: 
+4. **CONFIRM THAT YOU HAVE THE CORRECT BINARY**: 
    ```shell
     palomad version --long | grep commit
    ```
-   --> **Expected output `1143f40382ff1540dc134ceecf11b50af756428a`**
+   --> **Expected output `d49942927324392c8a3db45fa35c6f3b1ee73f24`**
 5. confirm that you're on pigeon v1.11.0 or download it
    ```shell
    wget -O - https://github.com/palomachain/pigeon/releases/download/v1.11.0/pigeon_Linux_x86_64.tar.gz  | \
@@ -44,7 +44,7 @@
     ```shell
     shasum -a 256 ~/.paloma/config/genesis.json
     ```
-    --> **Expected output `1987cfa9f45557540e702ceb1337f84ea151f0a0df2f13fe70f245f2967c15a1`**
+    --> **Expected output `57ae12350e9f38d84419dccabe283704b034db1fd16e0071243edaecad0ea9c3`**
 11. **RESET TO GENESIS & REMOVE DATA** 
     ```shell
     palomad comet unsafe-reset-all --home $HOME/.paloma
