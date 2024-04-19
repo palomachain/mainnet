@@ -1,3 +1,5 @@
+Racer was abandoned in favor of tumbler when the consensus params that caused the key not found and consensus errors were removed.
+
 1. Stop paloma and pigeon services
    ```shell
    sudo service palomad stop
